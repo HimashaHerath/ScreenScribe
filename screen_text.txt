@@ -1,0 +1,42 @@
+| ‘a EXPLORER +» ® grabber.pyM X @ README.md Es] Preview README.md Dy
+v scree... [3 F? © screenGrabber > @ grabber.py > ...
+P \ screenGrabber © 1 import pyautogui L
+® grabber py M 2 om PIL import Image I
+3 import pytesseract
+@ README.md 4 I
+"a screen.png 5 # Capture the screen
+S 6 image = pyautogui.screenshot()
+& 7 I
+8 # Save the image to a file
+as 9 image. save('screen.png')
+
+11 # Use OCR to extract text from the image
+text = pytesseract.image_to_string(Image.open( 'screen.png'))
+
+De
+
+13/
+Z
+14% # Save the text to a file
+b Z
+a 154 with open("screen_text.txt", "w") as file:
+Z
+16 / file.write(text)
+Z
+17 y
+18 / print("Text from the screen has been saved to ‘screen_text.txt'")
+19
+20% # print(text)
+21
+PROBLEMS (4 OUTPUT DEBUGCONSOLE TERMINAL +v Ax
+/Users/himashaherath/.zshrc:20: command not found: ng I 2} zsh
+@ (base) himashaherath@Himashas-MacBook-Air ScreenScribe % conda activate base >| Python
+
+/Users/himashaherath/opt/anaconda3/bin/python /Users/himashaherath/ScreenScribe/screenGrabber/grabber. py
+(base) himashaherath@Himashas-MacBook-Air ScreenScribe % /Users/himashaherath/opt/anaconda3/bin/python /Users/himashaherath/ScreenScribe/screenGrabber/
+grabber. py
+
+(2)
+god > OUTLINE
+
+> TIMELINE

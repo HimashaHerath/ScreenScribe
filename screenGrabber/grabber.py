@@ -10,4 +10,11 @@ image.save('screen.png')
 
 # Use OCR to extract text from the image
 text = pytesseract.image_to_string(Image.open('screen.png'))
-print(text)
+
+# Save the text to a file
+with open("screen_text.txt", "w") as file:
+    file.write(text)
+
+print("Text from the screen has been saved to 'screen_text.txt'")
+
+# print(text)
